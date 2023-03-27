@@ -1,0 +1,26 @@
+{
+  "name": "read-me-generator",
+  "version": "1.0.0",
+  "description": "generates readme file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-vanhoose/read-me-generator.git"
+  },
+  "keywords": [
+    "generate",
+    "readme"
+  ],
+  "author": "Brett VanHoose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-vanhoose/read-me-generator/issues"
+  },
+  "homepage": "https://github.com/m-vanhoose/read-me-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
