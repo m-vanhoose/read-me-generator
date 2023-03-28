@@ -1,4 +1,4 @@
-const inquirer = import('inquirer');
+const inquirer = require('inquirer');
 
 const fs = require('fs');
 
@@ -35,7 +35,7 @@ Table of Contents
     For any question please contact us at ${email} and ${github}`
 
 inquirer
-    .createPromptModule([
+    .prompt([
         {
         type: 'input',
         name: 'title',
@@ -142,7 +142,7 @@ inquirer
     ])
     .then((answers) => {
         const readMePageInfo = generateReadMe(answers);
-        fs.writeFile('README.md', readMePageInfo, (err) =>
+        fs.writeFile('./file/README.md', readMePageInfo, (err) =>
             err ? console.log(err): console.log('README.md created')
         );
     });

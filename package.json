@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/m-vanhoose/read-me-generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.5"
+    "inquirer": "8"
   }
 }
