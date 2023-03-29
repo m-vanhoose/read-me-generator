@@ -28,3 +28,5 @@ Table of Contents
     
 ## Questions
     For any question please contact me at m-vanhoose@live.com or visit my github at https://github.com/m-vanhoose
+
+Quick walkthrough video: https://drive.google.com/file/d/1SDOQa9FZnZ6NFIZxeAE-KtKvBYdch26r/view
