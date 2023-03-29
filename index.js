@@ -23,7 +23,7 @@ Table of Contents
     ${usage}
     
 ## License
-    The license used for ${title} the ${license}.
+    The license used for ${title} is the ${license}.
     
 ## Contributing
     To contribute to this product please ${contribute}.
@@ -32,7 +32,7 @@ Table of Contents
     The tests applied to ${title} before being deployed are ${tests}.
     
 ## Questions
-    For any question please contact us at ${email} and ${github}`
+    For any question please contact me at ${email} or visit my github at ${github}`
 
 inquirer
     .prompt([
